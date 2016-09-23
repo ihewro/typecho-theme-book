@@ -15,6 +15,15 @@
     <script src="<?php $this->options->themeUrl('assets/js/script.js'); ?>"></script>
 
 
+<script type="text/javascript">
+    (function($){
+        $(window).on("load",function(){
+           // $(".post-archive").mCustomScrollbar();
+			$(".post-archive").mCustomScrollbar({theme:"minimal-dark",autoHideScrollbar: true,scrollInertia: 250});
+        });
+    })(jQuery);
+</script>
+
 <?php $this->footer(); ?>
 </body>
 </html>

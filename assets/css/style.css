@@ -278,6 +278,8 @@ img {
   -webkit-transition: left .7s;
   -moz-transition: left .7s;
   transition: left .7s;
+  overflow:auto;
+  /*max-height:340px;*/
 }
 
 @media (min-width: 600px) {
@@ -295,7 +297,8 @@ img {
     margin-left: 0;
     background-color: #fff;
     width: 340px;
-	overflow-y: scroll;
+	overflow:hidden;
+
   }
 }
 
@@ -305,6 +308,7 @@ img {
 
 .post-archive-iterms {
   background-color: #fff;
+      margin-bottom: 30px;
 }
 
 .post-archive-iterm {

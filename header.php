@@ -17,12 +17,12 @@
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
     <link rel="stylesheet" href="http://cdn.staticfile.org/normalize/2.1.3/normalize.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
-        <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
-    	<link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/style.css'); ?>">
-            <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/solarized_dark.css'); ?>" />
-
-
-    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/solarized_dark.css'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('assets/css/jquery.mCustomScrollbar.css'); ?>">
+	<script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/jquery.mCustomScrollbar.concat.min.js'); ?>"></script>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
     <!--[if lt IE 9]>

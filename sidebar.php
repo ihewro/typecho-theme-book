@@ -3,7 +3,7 @@
   <div class="post-archive-trigger">
     <div class="post-archive-icon"></div>
   </div>
-
+    
   <!-- post archive -->
 <?php
 					$this->widget('Widget_Contents_Post_Recent', 'pageSize=10000')->to($archives);
@@ -24,4 +24,5 @@
  
 				    $output .= '</div></div>';
 				    echo $output;
+
 ?>
