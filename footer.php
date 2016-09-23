@@ -8,7 +8,7 @@
   <span>&copy;</span>
   <span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
   <a class="link-1" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>
-  <span> with Book theme by <a class="link-1" href="https://www.ihewro.com/" target="_blank">Ihewro</a>.</span>
+  <span> with Book theme by <a class="link-1" href="http://www.ihewro.com/" target="_blank">ihewro</a>.</span>
 </div>
 
 
