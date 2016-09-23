@@ -15,11 +15,14 @@
   </div>
     <!-- post navigator -->
   <div class="post-nav">
-                <span class="prev"><span class="post-nav-previous"></span><?php $this->theNext('%s','没有了'); ?></span>
+                <span class="post-nav-previous"><?php $this->theNext('%s','没有了'); ?></span>
                 <div class="post-nav-sep"></div>
-                <span class="next"><span class="post-nav-next"></span><?php $this->thePrev('%s',' &nbsp;没有了'); ?></span>
+                <span class="post-nav-next"><?php $this->thePrev('%s',' &nbsp;没有了'); ?></span>
   </div>
 
+<?php $this->need('comments.php'); ?>
 
 <?php $this->need('footer.php'); ?>
+
+
 </div>

@@ -1,10 +1,10 @@
 <?php
 /**
- * hewro 移植到typecho上
+ * 一款极适合书写、创作、阅读的简介风格主题。
  * 
  * @package book
  * @author hewro
- * @version 1.0
+ * @version 1.1
  * @link http://www.ihewro.com
  */
 

@@ -68,4 +68,3 @@ a:hover {
       </div>
     </div>
     <?php $this->need('footer.php'); ?>
-  </body>

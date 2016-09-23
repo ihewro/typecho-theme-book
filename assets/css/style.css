@@ -15,6 +15,9 @@ body {
   height: 100%;
   width: 100%;
   font-size: 14px;
+  font-family: "Titillium Web", sans-serif, "SimSun";
+  line-height: 200%;
+  -webkit-font-smoothing: antialiased;
 }
 
 blockquote {
@@ -67,15 +70,14 @@ img {
 }
 
 .footer {
+	  font-family: SimSun;
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 12px 0;
-    height: 50px;
+    height: 30px;
     width: 100%;
     line-height: 20px;
     text-align: center;
-    font-family: sans-serif;
 	    color: #555;
 }
 
@@ -88,7 +90,6 @@ img {
     width: 100%;
     line-height: 20px;
     text-align: center;
-    font-family: sans-serif;
 	color: #555;
 }
 
@@ -143,7 +144,6 @@ img {
 .page-container {
   position: relative;
   padding-top: 55px;
-  font-family: "Titillium Web", sans-serif;
   letter-spacing: .09em;
 }
 
@@ -201,6 +201,7 @@ img {
 .post-wrapper {
   background-color: #f8f8f8;
   overflow-x: hidden;
+  
 }
 
 @media (min-width: 769px) {
@@ -267,6 +268,7 @@ img {
   -moz-transform: translate(-6px, -5px) rotate(45deg) scaleX(0.5);
   transform: translate(-6px, -5px) rotate(45deg) scaleX(0.5);
 }
+
 
 /* post archive */
 .post-archive {
@@ -372,28 +374,30 @@ img {
 
 /* post */
 .post-header {
+  font-family:Arial,'Times New Roman';
   padding: 14px 39px 14px 19px;
   border-bottom: 1px solid #e6e6e6;
   line-height: 20px;
-  color: #ef4015;
+  -webkit-font-smoothing: antialiased;
+  color: #000;
 }
 
 .post-header h1 {
   margin: 0;
   padding-bottom: 5px;
   line-height: 20px;
-  color: #ef4015;
+  color: #000;
 }
 
 .post-content {
+  font-family:Arial,'Times New Roman',"SimSun";
   padding-right: 18.2px;
   padding-left: 18.2px;
   
   /*缩小后的样式*/
-  font-family: sans-serif;
   font-size: 15px;
   color: #555;
-  line-height: 1.5;
+  line-height: 200%;
 }
 
 .post-nav {
@@ -429,7 +433,7 @@ img {
   color: #8a8a8a;
 }
 
-.post-comment {
+.comments {
   padding: 23.8px 18.2px;
 }
 
@@ -437,7 +441,7 @@ img {
   .post-header,
   .post-content,
   .post-nav,
-  .post-comment {
+  .comments {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
@@ -447,12 +451,12 @@ img {
 
   .post-header {
     text-align: center;
-	color: #ef4015;
+	
 	    letter-spacing: 1px;
   }
 
   .post-nav,
-  .post-comment {
+  .comments {
     margin-top: 2em;
     margin-bottom: 2em;
   }
@@ -460,14 +464,12 @@ img {
   .post-content {
     padding: 14px 40px;
     border-bottom: 1px solid #e6e6e6;
-	/*正文字体*/
-	font-family: sans-serif;
     font-size: 15px;
     color: #555;
-    line-height: 1.5;
+    line-height: 200%;
   }
 
-  .post-comment {
+  .comments {
     border-top: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
   }
@@ -477,7 +479,7 @@ img {
   .post-header,
   .post-content,
   .post-nav,
-  .post-comment {
+  .comments {
     max-width: 700px;
   }
 }
@@ -497,25 +499,6 @@ img {
 .post-content h2 {
   padding-left: 24px;
   border-left: 3px solid #000;
-}
-
-.chinese {
-    font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    line-height: 24px;
-}
-
-.chinese p {
-  margin: 24px 0;
-}
-
-.english {
-  font-family: "Titillium Web", sans-serif;
-  line-height: 21px;
-}
-
-.english p {
-  margin: 21px 0;
-  line-height: 28px;
 }
 
 /*密码部分*/
@@ -554,6 +537,8 @@ form.protected input[type="submit"].submit:hover {
     background-color: rgb(143, 148, 147);
     color: #ece7e7!important;
 }
+
+
 /* =======================
  * specific page
  * ======================= */
@@ -561,6 +546,7 @@ form.protected input[type="submit"].submit:hover {
 .index-wrapper {
   padding-top: 15%;
   text-align: center;
+  font-family: SimSun;
 }
 
 @media (min-width: 769px) {
@@ -581,7 +567,6 @@ form.protected input[type="submit"].submit:hover {
   margin-left: auto;
   padding-top: 24px;
   width: 85%;
-  font-family: sans-serif;
   font-size: 15px;
   color: #555;
   line-height: 1.5;

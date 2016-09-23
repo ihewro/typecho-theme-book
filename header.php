@@ -34,5 +34,4 @@
     <?php $this->header(); ?>
 </head>
 <body>
-</body>
     
