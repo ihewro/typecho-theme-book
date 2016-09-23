@@ -68,6 +68,9 @@ a{
 	background-color: rgba(0,0,0,.05)
 }
 
+.post-wrapper::-webkit-scrollbar {
+    display: none;
+}
 
 /* ==========================================================================
    #comments
