@@ -14,15 +14,12 @@
 				        $y=$year;
 						
 						
-						$output .= '<a id="title-iterm" class="post-archive-iterm" onClick="getValue(this)" href="'.$archives->permalink .'" >
+						$output .= '<a id="title-iterm" class="post-archive-iterm" href="'.$archives->permalink .'" >
        <span class="post-archive-date">'.date('Y-m-d',$archives->created).'</span>
-        <span id="ifcheck" class="post-archive-title">'. $archives->title .'</span>
+        <span class="post-archive-title">'. $archives->title .'</span>
       </a>';	  
  }
- 
- $output .='<script>if(document.getElementById("title-iterm").href==window.location.href){var div=document.getElementById("ifcheck");div.className="post-archive-title checked"};</script>';
- 
+  
 				    $output .= '</div></div>';
 				    echo $output;
-
 ?>
