@@ -17,6 +17,8 @@
     <script src="<?php $this->options->themeUrl('assets/js/highlight.pack.js'); ?>"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="<?php $this->options->themeUrl('assets/js/script.js'); ?>"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="<?php $this->options->themeUrl('assets/js/zoom.min.js'); ?>"></script>
 
 <script type="text/javascript">
     (function($){
@@ -26,6 +28,19 @@
 			//$("body").mCustomScrollbar({theme:"minimal-dark",scrollInertia: 250});
         });
     })(jQuery);
+</script>
+
+<script type="text/javascript">
+        var setupContents = function () {
+            $(".post-content img:not(article .link-box img, img[no-zoom])").each(function() {
+                $(this).attr('data-action', 'zoom');
+                if($(this).next().is('br')){
+                    $(this).next().remove();
+                }
+            });
+          
+        };
+ setupContents();
 </script>
 
 <?php $this->footer(); ?>

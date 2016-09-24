@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/style.css'); ?>">
+        <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/zoom.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/solarized_dark.css'); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('assets/css/jquery.mCustomScrollbar.css'); ?>">
 	<script type="text/javascript" src="<?php $this->options->themeUrl('assets/js/jquery.mCustomScrollbar.concat.min.js'); ?>"></script>
