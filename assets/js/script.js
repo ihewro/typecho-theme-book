@@ -23,7 +23,7 @@ $(document).ready(function() {
   }
 
   // insert caption for post imgs
-  /* 暂时不需要这部分
+/*
   var caption = "";
   if ($(".post-content").hasClass("chinese")) {
     caption = "图";
@@ -32,8 +32,9 @@ $(document).ready(function() {
   }
   var imgs = $(".post-content img");
   for (var i = 0; i < imgs.length; i ++) {
-    $(imgs[i]).parent().append("<p style='text-align:center'>" + caption + " " + (i+1) + "</p>");
+    $(imgs[i]).parent().append("<br></br>");
   }
+  
   */
 
   // show off-canvas menu

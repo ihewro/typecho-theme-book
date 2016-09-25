@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 /* =======================
  * basic
@@ -15,7 +16,7 @@ body {
   height: 100%;
   width: 100%;
   font-size: 14px;
-  font-family: Arial,'Times New Roman', "黑体";
+  font-family: Arial,'Times New Roman', "SimHei";
   line-height: 200%;
   -webkit-font-smoothing: antialiased;
 }
@@ -387,7 +388,11 @@ img {
   color: #000;
 }
 
-.post-content {
+.archive-contain
+{
+	margin-top:20px;
+}
+.post-content,.archive-contain {
   padding-right: 18.2px;
   padding-left: 18.2px;
   
@@ -403,6 +408,14 @@ img {
   padding: 23.8px;
   text-align: center;
 }
+
+.archive-nav {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0px 0px 48px 1px;
+  text-align: center;
+}
+
 
 .post-nav-sep {
   margin: 14px auto;
@@ -436,9 +449,9 @@ img {
 
 @media (min-width: 600px) {
   .post-header,
-  .post-content,
-  .post-nav,
-  .comments {
+  .post-content,.archive-contain,
+  .post-nav,.archive-nav,
+  .comments,.category-content {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
@@ -452,13 +465,13 @@ img {
 	    letter-spacing: 1px;
   }
 
-  .post-nav,
-  .comments {
+  .post-nav,.archive-nav,
+  .comments,.category-content {
     margin-top: 2em;
     margin-bottom: 2em;
   }
 
-  .post-content {
+  .post-content,.archive-contain {
     padding: 14px 40px;
     border-bottom: 1px solid #e6e6e6;
     font-size: 15px;
@@ -474,14 +487,14 @@ img {
 
 @media (min-width: 769px) {
   .post-header,
-  .post-content,
-  .post-nav,
-  .comments {
+  .post-content,.archive-contain,
+  .post-nav,.archive-nav,
+  .comments,.category-content {
     max-width: 700px;
   }
 }
 
-.post-content a {
+.post-content a ,.archive-contain a{
   color: #6599ff;
   text-decoration: none;
   -webkit-transition: border .5s;
@@ -489,11 +502,11 @@ img {
   transition: border .5s;
 }
 
-.post-content a:hover {
+.post-content a:hover ,.archive-contain a:hover{
   border-bottom: 2px dotted #000;
 }
 
-.post-content h2 {
+.post-content h2,.archive-contain h2{
   padding-left: 24px;
   border-left: 3px solid #000;
 }

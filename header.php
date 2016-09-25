@@ -15,6 +15,7 @@
 
     <!-- 使用url函数转换相关路径 -->
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+	<?php $this->header('keywords=&generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/style.css'); ?>">
@@ -31,7 +32,6 @@
     <![endif]-->
 
     <!-- 通过自有函数输出HTML头部信息 -->
-    <?php $this->header(); ?>
 </head>
 <body>
     
